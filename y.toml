@@ -1,0 +1,3 @@
+[yarv]
+name = "YARV"
+desc = "Yet Another Ruby VM"

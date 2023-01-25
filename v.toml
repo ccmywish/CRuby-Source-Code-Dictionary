@@ -1,4 +1,5 @@
 [vm]
 name = "VM"
 desc = "Virtual Machine"
-more = "In MRI's case YARV (Yet Another Ruby VM)"
+more = "In MRI's case YARV"
+see = 'YARV'
