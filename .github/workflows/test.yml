@@ -1,0 +1,23 @@
+name: Test-Dict
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # Don't test Windows, because no curl
+        os: [ 'ubuntu-latest', 'macos-latest' ]
+        ruby: [ 3.1, '3.0', 2.7,  ruby-head ]
+    steps:
+    - uses: actions/checkout@v3
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby }}
+    - name: Install dependencies
+      run: gem install cr.rb
+    - name: Add a dictionary
+      run: cr -a ${{ github.repository }}
+    - name: Test every word
+      run: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/cryptic-resolver/cr.rb/main/bin/test-dict)"
