@@ -1,0 +1,10 @@
+[ec]
+name = "ec"
+desc = "Execution Context"
+more = "The top level VM context, points at the current 'cfp'"
+see = 'cfp'
+
+[ep]
+name = "ep"
+desc = "Environment Pointer"
+more = "Local variables, including method parameters are stored in the 'ep' array. The 'ep' is pointed to by the 'cfp'"

@@ -1,0 +1,4 @@
+[vm]
+name = "VM"
+desc = "Virtual Machine"
+more = "In MRI's case YARV (Yet Another Ruby VM)"

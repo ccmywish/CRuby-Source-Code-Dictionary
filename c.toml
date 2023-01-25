@@ -1,0 +1,5 @@
+[cfp]
+name = "cfp"
+desc = "Control Frame Pointer"
+more = "Represents a Ruby stack frame. Calling a method pushes a new frame (cfp), returning pops a frame. Points at the 'pc', 'sp', 'ep', and the corresponding 'iseq'"
+see = ['pc', 'sp', 'ep', 'iseq']

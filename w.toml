@@ -1,0 +1,9 @@
+[wb]
+name = "WB"
+desc = "Write Barrier"
+more = "To do with GC write barriers"
+
+[wc]
+name = "WC"
+desc = "Wild Card"
+more = "As seen in instructions like 'getlocal_WC_0'. It means this instruction takes a 'wild card' for the parameter (in this case an index for a local)"

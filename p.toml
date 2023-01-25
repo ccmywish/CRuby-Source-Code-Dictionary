@@ -1,0 +1,4 @@
+[pc]
+name = "pc"
+desc = "Program Counter"
+more = "Usually the instruction that will be executed next by the VM. Pointed to by the cfp and incremented by the VM"
