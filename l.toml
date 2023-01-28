@@ -1,0 +1,8 @@
+[lep]
+name = "lep"
+desc = "Local Environment Pointer"
+more = "An 'ep' which is tagged VM_ENV_FLAG_LOCAL. Usually this is the 'ep' of a method (rather than a block, whose 'ep' isn't 'local')"
+
+[local]
+name = "Local"
+desc = "Refers to a local variable"
