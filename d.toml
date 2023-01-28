@@ -1,0 +1,11 @@
+[dvar]
+name = "dvar"
+desc = "Dynamic Variable"
+more = """
+Used by the parser to refer to local variables that are defined outside of the current lexical scope. For example
+  def foo
+    bar = 1
+    -> { p bar }
+  end
+the "bar" inside the block is a dvar
+"""
