@@ -1,3 +1,8 @@
 [gc]
 name = "GC"
 desc = "Garbage Collector"
+
+[gvar]
+name = "gvar"
+desc = "Global Variable"
+more = "Refers to a Ruby global variable like '$$', etc"

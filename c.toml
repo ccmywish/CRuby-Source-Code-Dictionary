@@ -26,3 +26,4 @@ see = ['pc', 'sp', 'ep', 'iseq']
 name = "cvar"
 desc = "Class Variable"
 more = "Refers to a Ruby class variable like @@foo"
+see = 'ivar'

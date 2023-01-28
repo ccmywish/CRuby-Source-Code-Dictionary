@@ -1,4 +1,25 @@
 [iseq]
 name = "iseq"
 desc = "Instruction Sequence"
-more = "Usually 'iseq' in the C code will refer to an 'rb_iseq_t' object that holds a reference to the actual instruction sequences which are executed by the VM. The object also holds information about the code, like the method name associated with the code."
+more = "Usually 'iseq' in the C code will refer to an 'rb_iseq_t' object that holds a reference to the actual instruction sequences which are executed by the VM. The object also holds information about the code, like the method name associated with the code"
+
+[insn]
+name = "insn"
+desc = "Instruction"
+more = "Refers to a YARV instruction"
+
+[insns]
+name = "insns"
+desc = "Instructions"
+more = "Usually an array of YARV instructions"
+
+[ivar]
+name = "ivar"
+desc = "Instance Variable"
+more = "Refers to a Ruby instance variable like @foo"
+see = 'cvar'
+
+[imemo]
+name = "imemo"
+desc = "Internal Memo"
+more = "A struct whose memory is managed by Ruby's GC, but contains internal information and isn't meant to be exposed to Ruby programs. Contains various information depending on the type"
