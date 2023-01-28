@@ -1,3 +1,7 @@
+[value]
+name = "VALUE"
+desc = "Pointer to a Ruby object"
+
 [vm]
 name = "VM"
 desc = "Virtual Machine"
