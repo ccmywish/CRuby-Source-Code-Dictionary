@@ -2,3 +2,8 @@
 name = "sp"
 desc = "Stack Pointer"
 more = "The top of the stack. The VM executes instructions in the iseq and instructions will push and pop values on the stack. The VM updates the 'sp' on the 'cfp' to point at the top of the stack"
+
+[svar]
+name = "svar"
+desc = "Special Variable"
+more = "Refers to special local variables like '$~' and '$_'. See the 'getspecial' instruction in 'insns.def'"
