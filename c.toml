@@ -4,12 +4,6 @@ desc = "Call Cache"
 more = "An inline cache structure for the call site. Stored in the 'cd'"
 see = 'cd'
 
-[ci]
-name = "ci"
-desc = "Call Information"
-more = "Refers to an rb_callinfo struct. Contains call information about the call site, including number of parameters to be passed, whether it they are keyword arguments or not, etc. Used in conjunction with the 'cc' and 'cd'"
-see = ['cc', 'cd']
-
 [cd]
 name = "cd"
 desc = "Call Data"
@@ -21,6 +15,21 @@ name = "cfp"
 desc = "Control Frame Pointer"
 more = "Represents a Ruby stack frame. Calling a method pushes a new frame (cfp), returning pops a frame. Points at the 'pc', 'sp', 'ep', and the corresponding 'iseq'"
 see = ['pc', 'sp', 'ep', 'iseq']
+
+[ci]
+name = "ci"
+desc = "Call Information"
+more = "Refers to an rb_callinfo struct. Contains call information about the call site, including number of parameters to be passed, whether it they are keyword arguments or not, etc. Used in conjunction with the 'cc' and 'cd'"
+see = ['cc', 'cd']
+
+[cref]
+name = "cref"
+desc = "Class reference"
+more = "A structure pointing to the class reference where 'klass_or_self', visibility scope, and refinements are stored. It also stores a pointer to the next class in the hierarchy referenced by 'rb_cref_struct * next'. The Class reference is lexically scoped"
+
+[cruby]
+name = "CRuby"
+desc = "Implementation of Ruby written in C"
 
 [cvar]
 name = "cvar"
