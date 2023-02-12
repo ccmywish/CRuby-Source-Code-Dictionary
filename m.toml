@@ -1,3 +1,8 @@
+[me]
+name = "me"
+desc = "Method Entry"
+more = "Refers to an 'rb_method_entry_t' struct, the internal representation of a Ruby method."
+
 [mri]
 name = "MRI"
 desc = "Matz's Ruby Interpreter"
