@@ -6,9 +6,13 @@ CRuby source code names explained using [cr: the Cryptic Resolver](https://githu
 
 <br>
 
-My idea for knowledge management for C/C++ code base, is to record every abbreviation with its expansion. I'm glad to see that someone's effort is a very good example of [cr.rb](https://github.com/cryptic-resolver/cr.rb) target usage.
+This repo is a transformation to cryptic resolver dictionaries from [ruby's official doc](https://github.com/ruby/ruby/blob/master/doc/contributing/glossary.md) (Moved from the former project: [@tenderlove's ruby glossary](https://github.com/tenderlove/ruby-glossary)).
 
-This repo is a transformation to cryptic resolver dictionaries from @tenderlove's https://github.com/tenderlove/ruby-glossary
+I will keep track of the upstream to keep it up to date. Welcome contributions!
+
+**Last Track Time: <2023-02-13>**
+
+<br>
 
 ## Usage
 
