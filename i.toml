@@ -1,3 +1,13 @@
+[iclass]
+name = "ICLASS"
+desc = "Internal Class"
+more = "When a module is included, the target class gets a new superclass which is an instance of an 'ICLASS'. The 'ICLASS' represents the module in the inheritance chain."
+
+[ifunc]
+name = "ifunc"
+desc = "Internal FUNCtion"
+more = "A block implemented in C"
+
 [iseq]
 name = "iseq"
 desc = "Instruction Sequence"
