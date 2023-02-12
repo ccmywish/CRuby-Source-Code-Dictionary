@@ -1,0 +1,4 @@
+[zombie]
+name = "ZOMBIE"
+desc = "A zombie object"
+more = "An object that has a finalizer which hasn't been executed yet. The object has been collected, so is 'dead', but the finalizer hasn't run yet so it's still somewhat alive."
