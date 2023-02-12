@@ -1,0 +1,4 @@
+[bop]
+name = "bop"
+desc = "Basic Operator"
+more = "Relates to methods like Integer plus and minus which can be optimized as long as they haven't been redefined"
