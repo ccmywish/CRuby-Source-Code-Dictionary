@@ -10,7 +10,7 @@ This repo is a transformation to cryptic resolver dictionaries from [ruby's offi
 
 I will keep track of the upstream to keep it up to date. Welcome contributions!
 
-**Last Track Time: <2023-02-13>**
+**Last Track Time: <2023-06-29>**
 
 <br>
 
